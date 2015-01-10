@@ -13,11 +13,12 @@ try:
 except:
     print ("Cant find url")
 
-i=0
-m=0
+i=0  #text i find appears twice so to print only once
+m=0  # same as varible i 
 a=["Heading :-","Author :-","\n"]
-img=[]
+img=[] # to contain all the images that appears on the page 
 def text(tag):
+    #find the data inside the tag
     string=""
     if isinstance(tag,NavigableString)==True:
         string=tag.encode("utf-8")
@@ -31,12 +32,13 @@ def text(tag):
 
 import pprint
 import time
-flag=0
-flag1=0
-fil=""
-head=""
+flag=0 #for marking the end 
+flag1=0 #for marking quotes 
+fil="" #for storing the data 
+head="" 
 maindata=soup.findAll("div")
 for data in maindata:
+    #search for data in div tags
     if isinstance(data,NavigableString)==False:
         for atrs in data.attrs:
             if atrs=="class":
@@ -91,7 +93,7 @@ for imgss in imgs :
 print img
 
 fil = fil + "\n Download Images at :- ".encode('utf-8') + str(img).encode('utf-8')
-
+#saving the data inside a file with the name of the heading 
 fo = open(head+".txt","w") 
 fo.write(fil.decode("utf-8").encode("ascii","ignore"))
 fo.close
