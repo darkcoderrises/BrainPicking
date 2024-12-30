@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="HAhQnCRQELnZXHcpAR0Z">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Main Database&lt;/h1&gt;&lt;div&gt;- Stratgies&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Users&lt;/div&gt;&lt;div&gt;- Trades&lt;/div&gt;&lt;div&gt;- StrategyInstances&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;User Setup&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- UserID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Broker Details&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Margin / Risk Details&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Stratgy Instances subscribed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Executor&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;- Id&lt;/div&gt;&lt;div&gt;- Instrument&lt;/div&gt;&lt;div&gt;- UserID&lt;/div&gt;&lt;div&gt;- Config&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Exchange&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Limits&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Stop Loss&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- State&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Strategy Configs&lt;br&gt;- Is Active&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Strategy&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Name&lt;/div&gt;&lt;div&gt;- SampleJson&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="410" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DsK-IDhYcI5ADjPkOy1n-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Order Table&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Order ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Executor ID&lt;/div&gt;&lt;div&gt;- Time Stamp&lt;/div&gt;&lt;div&gt;- Status&lt;/div&gt;&lt;div&gt;- Order Type&lt;/div&gt;&lt;div&gt;- Exchange&lt;/div&gt;&lt;div&gt;- Broker Order ID&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="180" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
